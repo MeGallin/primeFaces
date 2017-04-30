@@ -8,10 +8,12 @@ import {AccordionModule} from 'primeng/components/accordion/accordion';
 import { ChartModule } from 'primeng/components/chart/chart'
 
 import { AppComponent } from './app.component';
+import { ChartComponent } from './chart/chart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
